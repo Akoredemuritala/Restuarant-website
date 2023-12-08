@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4{
+    font-weight: 400;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon{
+    display: none;
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+}
+
+.logo img{
+    width: 100%;
+}
+
+ul.menu-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 13rem;
+}
+
+.hero h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+.hero p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.btn-full{
+    border: 1px solid #d35400;
+    background: #d35400;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.btn-light{
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+
+/* Meal Features */
+
+.section{
+    padding: 80px 0;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-title h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.section-title p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.section-title p{
+    padding: 5px 10px;
+}
+
+.meal-features{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.feature{
+    padding: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 0 4px 8px #efefef;
+}
+
+.feature h3{
+    font-weight: bolder;
+    padding: 10px 13px;
+    font-size: 20px;
+}
+
+.feature p{
+    letter-spacing: 1px;
+    padding-left: 15px;
+    font-size: 16px;
+    
+}
+
+.meal-features i{
+    color: #d35400;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.fas-carrot .fas{
+    font-weight: 900;
+    /* font-family: "Font Awesome 6 Free"; */
+}
+
+/* Meal */
+.meal-photo{
+    display: flex;
+}
+
+.show-meal{
+    padding: 50px 0px;
+    background: #ddd;
+    margin-top: 50px;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+    transform: scale(1.5);
+}
+
+figure img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+figure{
+    background-color: black;
+    overflow: hidden;
+}
+
+/* WORK SESSION */
+.work-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.work-box img{
+    width: 100%;
+}
+
+.work-box{
+    margin-top: 20px;
+}
+
+.work-item{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.work-item div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #d35400;
+    float: left;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-item:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+/* suscribe */
+.subscribe{
+    background-color: #efefef;
+}
+
+.form-box{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-box .btn-btn{
+    width: 60%;
+    padding: 10px;
+    border: transparent;
+    border-radius: 7px;
+}
+
+.form-box .form-btn{
+    width: 20%;
+    
+}
+
+
+.form-btn{
+    background-color:rgb(1, 1, 34);
+    color: white;
+    padding: 15px 0px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(1, 1, 34);
+    color: whitesmoke;
+    padding: 40px 0;
+}
+
+.ft-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon a{
+    background-color: whitesmoke;
+    color: rgb(63, 37, 6);
+    border-radius: 5px;
+    font-size: 23px;
+    line-height: 24px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon a li{
+    display: inline-block;
+}
+
+/* Responsible Design */
+
+@media screen and (max-width: 1200px) {
+    nav{
+        width: 90%;
+        padding-left: 5%;
+       
+    }
+
+    .logo{
+       margin-top: 15px;
+    }
+
+   
+}
+ 
+@media screen and (max-width: 1023px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    .container{
+        width: 90%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+   body{
+    font-size: 14px;
+   }
+   
+    .nav-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    ul.menu-nav{
+        display: none;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .meal-features{
+        gap: 20px;
+    }
+
+    .feature p{
+        font-size: 14px;
+    }
+
+    .work-item div {
+        margin-left: 10px;
+    }
+
+    .work-flex{
+        flex-direction: column;
+        width: 90%;
+        
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .meal-features {
+        padding: 10px 5px;
+        gap: 10px;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .form-box{
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero{
+        margin-top: 5rem;
+    }
+
+    header{
+        height: 70vh;
+    }
+   
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 12px;
+       }
+}
+
+
+
